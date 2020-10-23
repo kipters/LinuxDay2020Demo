@@ -18,7 +18,7 @@ namespace Fibonacci.Api.Controllers
             _fibonacci = fibonacci;
         }
 
-        [HttpGet]
+        [HttpGet("{count:int}")]
         public IActionResult Get(int count) 
         {
             _logger.LogInformation("Requesting {count} items", count);
