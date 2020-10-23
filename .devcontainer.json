@@ -1,0 +1,11 @@
+{
+    "image": "mcr.microsoft.com/dotnet/sdk:5.0-buster-slim",
+    "extensions": [
+        "ms-azuretools.vscode-docker",
+        "ms-dotnettools.csharp"
+    ],
+    "appPort": [
+        "5000:5000",
+        "5001:5001"
+    ]
+}
